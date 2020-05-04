@@ -1,7 +1,7 @@
 ﻿namespace WebApp.Controllers
 
 open Microsoft.AspNetCore.Mvc
-open WebApp.GraphCool
+open ApiLib.GraphCool
 open FSharp.Data.GraphQL
 
 [<ApiController>]

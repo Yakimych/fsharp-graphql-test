@@ -5,7 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Lib.fs" />
+    <Compile Include="GraphCoolProvider.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Data.GraphQL.Client" Version="1.0.5" />
   </ItemGroup>
 
 </Project>
